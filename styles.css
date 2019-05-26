@@ -1,0 +1,88 @@
+@keyframes random {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: skyblue;}
+  100% {background-color: pink;}
+  
+}
+
+
+body{
+	text-align:center;
+	animation-name:random;
+	font-family:"Verdana";
+	animation-duration:20s;
+	animation-iteration-count:infinite;
+	background-image:images.jfif;
+	
+}
+input[name=monitor]{
+
+	padding: 5px;
+	width:19%;
+	margin:8px 0;
+	border-radius:4px;
+}
+input[name=mouse]{
+	padding: 5px;
+	width:20%;
+	border-radius:4px;
+	margin:8px 0;
+}
+input[name=keyboard]{
+	padding: 5px;
+	width:20%;
+	margin:8px 0;
+	border-radius:4px;
+}
+input[name=chasis]{
+	padding: 5px;
+	width:20%;
+	margin:8px 0;
+	border-radius:4px;
+}
+input[name=cpu]{
+	padding: 5px;
+	width:20%;
+	margin:8px 0;
+	border-radius:4px;
+}
+input[name=size]{
+	padding: 5px;
+	width:20%;
+	margin:8px;
+	border-radius:4px;
+}
+input[name=gpu]{
+	padding: 5px;
+	width:20%;
+	margin:8px;
+	border-radius:4px;
+}
+input[name=power]{
+	padding: 5px;
+	width:20%;
+	margin:8px 0;
+	border-radius:4px;
+	
+}
+input[type=submit]{
+	font:Arial;
+	width:15%;
+	color:white;
+	margin:8px 0;
+	padding: 5px;
+	background-color:#02ff06;
+	border-radius:4px;
+}
+.custom-select{
+	padding:auto;
+}
+.a{
+	background-color:DodgerBlue;
+	font-size:20px;
+}
+.b{
+	background-color:DodgerBlue;
+	font-size:20px;
+}
