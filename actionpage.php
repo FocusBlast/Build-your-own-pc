@@ -8,7 +8,7 @@ $keyboard=$_POST['keyboard'];
 $chassis=$_POST['chassis'];
 $cpu=$_POST['cpu'];
 $ram=$_POST['ram'];
-$gpu=$_POST['GPU'];
+$gpu=$_POST['gpu'];
 $power=$_POST['power'];
 
 
